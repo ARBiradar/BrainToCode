@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ARBiradar/BrainToCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/ARBiradar/BrainToCode/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/ARBiradar/BrainToCode/tree/master/0020-valid-parentheses) |
 ## Sliding Window
 |  |
 | ------- |
@@ -47,4 +48,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/ARBiradar/BrainToCode/tree/master/0066-plus-one) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/ARBiradar/BrainToCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
