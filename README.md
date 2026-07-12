@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/ARBiradar/BrainToCode/tree/master/0027-remove-element) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ARBiradar/BrainToCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/ARBiradar/BrainToCode/tree/master/0035-search-insert-position) |
+| [0042-trapping-rain-water](https://github.com/ARBiradar/BrainToCode/tree/master/0042-trapping-rain-water) |
 | [0066-plus-one](https://github.com/ARBiradar/BrainToCode/tree/master/0066-plus-one) |
 | [1480-running-sum-of-1d-array](https://github.com/ARBiradar/BrainToCode/tree/master/1480-running-sum-of-1d-array) |
 ## Hash Table
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ARBiradar/BrainToCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/ARBiradar/BrainToCode/tree/master/0027-remove-element) |
+| [0042-trapping-rain-water](https://github.com/ARBiradar/BrainToCode/tree/master/0042-trapping-rain-water) |
 ## Trie
 |  |
 | ------- |
@@ -56,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ARBiradar/BrainToCode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/ARBiradar/BrainToCode/tree/master/0042-trapping-rain-water) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -68,4 +71,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ARBiradar/BrainToCode/tree/master/0002-add-two-numbers) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/ARBiradar/BrainToCode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/ARBiradar/BrainToCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
