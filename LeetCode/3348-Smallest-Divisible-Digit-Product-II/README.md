@@ -287,8 +287,6 @@ See the original problem on LeetCode
 139}
     if (count3 == 1 && count4 == 1) {
       count2 = 1;
-      count6 = 1;
-      count3 = 0;
     int count2 = remaining2 % 2;
     // Combine 2 and 3 to 6 if both are present
     int count6 = 0;
@@ -302,10 +300,11 @@ See the original problem on LeetCode
     // 2^2 = 4
     int count3 = count.get(3) % 2;
     final int count9 = count.get(3) / 2;
-    // 3^2 = 9
-    final int remaining2 = count.get(2) % 3;
-    final int count8 = count.get(2) / 3;
-    // 2^3 = 8
+      count6 = 1;
+      count3 = 0;
+      count4 = 0;
+    }
+    return Map.of(2, count2, 3, count3, 4, count4, 5, count.get(5), 
 
 ```
 
