@@ -1,7 +1,6 @@
     if (count3 == 1 && count4 == 1) {
       count2 = 1;
       count6 = 1;
-      count3 = 0;
     int count2 = remaining2 % 2;
     // Combine 2 and 3 to 6 if both are present
     int count6 = 0;
@@ -19,3 +18,4 @@
     final int remaining2 = count.get(2) % 3;
     final int count8 = count.get(2) / 3;
     // 2^3 = 8
+  count) {
