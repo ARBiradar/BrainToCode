@@ -1,20 +1,21 @@
     if (count3 == 1 && count4 == 1) {
       count2 = 1;
-    int count2 = remaining2 % 2;
-    // Combine 2 and 3 to 6 if both are present
-    int count6 = 0;
-    if (count2 == 1 && count3 == 1) {
-      count2 = 0;
-      count3 = 0;
-      count6 = 1;
-    }
     // Combine 3 and 4 to 2 and 6 if both are present
-    int count4 = remaining2 / 2;
-    // 2^2 = 4
-    int count3 = count.get(3) % 2;
-    final int count9 = count.get(3) / 2;
       count6 = 1;
       count3 = 0;
       count4 = 0;
     }
     return Map.of(2, count2, 3, count3, 4, count4, 5, count.get(5), 
+    6, count6, 7, count.get(7), 8,
+                  count8, 9, count9);
+  }
+
+  private String construct(Map<Integer, Integer> factors) {
+    StringBuilder sb = new StringBuilder();
+    for (int digit = 2; digit < 10; ++digit)
+      sb.append(String.valueOf(digit).repeat(factors.get(digit)));
+    return sb.toString();
+  }
+
+  // Returns true if a is a subset of b.
+  private boolean isSubset(Map<Integer, Integer> a, Map<Integer, 
