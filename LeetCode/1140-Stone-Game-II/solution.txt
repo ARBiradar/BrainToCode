@@ -1,0 +1,20 @@
+        for (int i = 0; i < n; i++) {
+            prefixSum[i + 1] = prefixSum[i] + piles[i];
+        }
+      
+        prefixSum = new int[n + 1];
+        // Build prefix sum array for O(1) range sum queries
+      
+        n = piles.length;
+    public int stoneGameII(int[] piles) {
+
+    private int n;
+    // Total number of piles
+    private Integer[][] dp;
+    // starting from index i with M = m
+    can get 
+    // Memoization table: dp[i][m] = maximum stones the current player 
+    private int[] prefixSum;
+    efficiently
+    // Prefix sum array to calculate sum of piles from index i to j 
+class Solution {
