@@ -1,0 +1,24 @@
+            
+            // Otherwise, add the current number and its index to the map
+            }
+            map.put(nums[i], i);
+        }
+        
+        // Return an empty array if no solution is found (per constraints, this won't happen)
+        return new int[] {};
+            
+    }
+                return new int[] { map.get(complement), i };
+            if (map.containsKey(complement)) {
+            // Check if the complement already exists in the map
+            
+            int complement = target - nums[i];
+}
+
+        
+        for (int i = 0; i < nums.length; i++) {
+        Map<Integer, Integer> map = new HashMap<>();
+    public int[] twoSum(int[] nums, int target) {
+class Solution {
+
+import java.util.HashMap;
