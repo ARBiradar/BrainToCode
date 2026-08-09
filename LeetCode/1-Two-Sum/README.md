@@ -78,7 +78,6 @@ See the original problem on LeetCode
     public int[] twoSum(int[] nums, int target) {
 class Solution {
 
-import java.util.HashMap;
 
 ```
 
