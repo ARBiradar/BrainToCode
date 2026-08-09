@@ -4,7 +4,7 @@
 2
 3class Solution {
 4    public int[] twoSum(int[] nums, int target) {
-5        Map<Integer, Integer> map = new HashMap<>();
+5       Map<Integer, Integer> map = new HashMap<>();
 6        
 7        for (int i = 0; i < nums.length; i++) {
 8            int complement = target - nums[i];
@@ -20,10 +20,14 @@
 18        
 19        // Return an empty array if no solution is found (per constraints, this won't happen)
 20        return new int[] {};
-21            
-22    }
-23}
-24-green)
+21       
+22        
+23
+24      
+25            
+26    }
+27}
+28-green)
 
 ## 🧩 Problem Summary
 
@@ -35,7 +39,7 @@ See the original problem on LeetCode
 2
 3class solution {
 4    public int[] twosum(int[] nums, int target) {
-5        map<integer, integer> map = new hashmap<>();
+5       map<integer, integer> map = new hashmap<>();
 6        
 7        for (int i = 0; i < nums.length; i++) {
 8            int complement = target - nums[i];
@@ -51,11 +55,23 @@ See the original problem on LeetCode
 18        
 19        // return an empty array if no solution is found (per constraints, this won't happen)
 20        return new int[] {};
-21            
-22    }
-23}
-24
-c
+21       
+22        
+23
+24      
+25            
+26    }
+27}
+28
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            
+import java.util.HashMap;
+
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+       Map<Integer, Integer> map = new HashMap<>();
+        
 
 ```
 
@@ -65,7 +81,7 @@ c
 2
 3class Solution {
 4    public int[] twoSum(int[] nums, int target) {
-5        Map<Integer, Integer> map = new HashMap<>();
+5       Map<Integer, Integer> map = new HashMap<>();
 6        
 7        for (int i = 0; i < nums.length; i++) {
 8            int complement = target - nums[i];
@@ -81,10 +97,14 @@ c
 18        
 19        // Return an empty array if no solution is found (per constraints, this won't happen)
 20        return new int[] {};
-21            
-22    }
-23}
-24`
+21       
+22        
+23
+24      
+25            
+26    }
+27}
+28`
 
 ## 📅 Solved On
 
