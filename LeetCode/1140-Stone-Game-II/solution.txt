@@ -1,0 +1,16 @@
+        // Try taking X piles where X is from 1 to 2*M
+        for (int X = 1; X <= 2 * M; X++) {
+            // Calculate maximum stones we can get by taking X piles
+            // Total remaining stones - opponent's best result = our 
+            result
+            int currentPlayerStones = prefixSum[n] - prefixSum[index] 
+            - 
+                                      dfs(index + X, Math.max(M, X));
+            maxStones = Math.max(maxStones, currentPlayerStones);
+        }
+      
+        // Store result in memoization table and return
+        dp[index][M] = maxStones;
+        return maxStones;
+    }
+}
