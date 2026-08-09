@@ -23,26 +23,22 @@ See the original problem on LeetCode
 [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 [100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 [10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000, 10000]
-        for (int i = 0; i < n; i++) {
-            prefixSum[i + 1] = prefixSum[i] + piles[i];
+        // Try taking X piles where X is from 1 to 2*M
+        for (int X = 1; X <= 2 * M; X++) {
+            // Calculate maximum stones we can get by taking X piles
+            // Total remaining stones - opponent's best result = our 
+            result
+            int currentPlayerStones = prefixSum[n] - prefixSum[index] 
+            - 
+                                      dfs(index + X, Math.max(M, X));
+            maxStones = Math.max(maxStones, currentPlayerStones);
         }
       
-        prefixSum = new int[n + 1];
-        // Build prefix sum array for O(1) range sum queries
-      
-        n = piles.length;
-    public int stoneGameII(int[] piles) {
-
-    private int n;
-    // Total number of piles
-    private Integer[][] dp;
-    // starting from index i with M = m
-    can get 
-    // Memoization table: dp[i][m] = maximum stones the current player 
-    private int[] prefixSum;
-    efficiently
-    // Prefix sum array to calculate sum of piles from index i to j 
-class Solution {
+        // Store result in memoization table and return
+        dp[index][M] = maxStones;
+        return maxStones;
+    }
+}
 
 ```
 
