@@ -1,0 +1,12 @@
+        {
+            if(ch[i] != ch[j])
+            {
+                return false;
+            }
+            i++;
+            j--;
+        }
+        return true;
+
+    }
+}
