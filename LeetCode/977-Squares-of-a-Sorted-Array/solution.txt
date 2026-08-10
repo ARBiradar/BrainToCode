@@ -1,0 +1,13 @@
+                res[i]=lefts;
+                left++;
+            }
+        }
+        return res;
+
+
+    }
+}
+            }else{
+                right--;
+                res[i] = rights;
+            if(lefts<rights){
