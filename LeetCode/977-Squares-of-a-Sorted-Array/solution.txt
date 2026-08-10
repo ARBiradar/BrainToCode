@@ -1,0 +1,11 @@
+        {
+           nums[i] =(int) Math.pow(nums[i],2);
+        while(i <= j)
+        int i = 0; int j = nums.length-1;
+        }
+        return nums;
+    }
+           i++;
+        
+        Arrays.sort(nums);
+}
