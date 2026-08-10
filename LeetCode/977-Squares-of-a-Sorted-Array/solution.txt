@@ -1,11 +1,13 @@
-        {
-           nums[i] =(int) Math.pow(nums[i],2);
-        while(i <= j)
-        int i = 0; int j = nums.length-1;
+                res[i]=lefts;
+                left++;
+            }
         }
-        return nums;
+        return res;
+
+
     }
-           i++;
-        
-        Arrays.sort(nums);
 }
+            }else{
+                right--;
+                res[i] = rights;
+            if(lefts<rights){
