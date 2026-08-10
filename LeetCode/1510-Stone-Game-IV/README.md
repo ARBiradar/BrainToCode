@@ -43,9 +43,10 @@ See the original problem on LeetCode
                     f[i] = true;
                     break;
          boolean[] f = new boolean[n + 1];
-    public boolean winnerSquareGame(int n) {
         
-class Solution {
+                }
+            }
+        }
 
 ```
 
