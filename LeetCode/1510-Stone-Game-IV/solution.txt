@@ -7,3 +7,4 @@
     public boolean winnerSquareGame(int n) {
         
 class Solution {
+                }
