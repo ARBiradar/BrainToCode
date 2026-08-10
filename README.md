@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/ARBiradar/BrainToCode/tree/master/0002-add-two-numbers) |
 | [0066-plus-one](https://github.com/ARBiradar/BrainToCode/tree/master/0066-plus-one) |
+| [1510-stone-game-iv](https://github.com/ARBiradar/BrainToCode/tree/master/1510-stone-game-iv) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/ARBiradar/BrainToCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/ARBiradar/BrainToCode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/ARBiradar/BrainToCode/tree/master/3348-smallest-divisible-digit-product-ii) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/ARBiradar/BrainToCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ARBiradar/BrainToCode/tree/master/0042-trapping-rain-water) |
+| [1510-stone-game-iv](https://github.com/ARBiradar/BrainToCode/tree/master/1510-stone-game-iv) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -121,4 +123,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/ARBiradar/BrainToCode/tree/master/3348-smallest-divisible-digit-product-ii) |
+## Minimax
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/ARBiradar/BrainToCode/tree/master/1510-stone-game-iv) |
+## Game Theory
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/ARBiradar/BrainToCode/tree/master/1510-stone-game-iv) |
+## Nim Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/ARBiradar/BrainToCode/tree/master/1510-stone-game-iv) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/ARBiradar/BrainToCode/tree/master/1510-stone-game-iv) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/ARBiradar/BrainToCode/tree/master/1510-stone-game-iv) |
 <!---LeetCode Topics End-->
