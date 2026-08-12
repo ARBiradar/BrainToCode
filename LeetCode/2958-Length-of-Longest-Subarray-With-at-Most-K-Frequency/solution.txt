@@ -10,4 +10,4 @@
     }
 
     return ans;
-    }
+class Solution {
