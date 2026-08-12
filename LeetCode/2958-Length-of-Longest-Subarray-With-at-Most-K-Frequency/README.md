@@ -59,7 +59,7 @@ class solution:
     }
 
     return ans;
-    }
+class Solution {
 
 ```
 
