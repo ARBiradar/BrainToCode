@@ -47,6 +47,7 @@ class solution:
             max_length = max(max_length, end - start + 1)
         
         return max_length
+class Solution {
     public int maxSubarrayLength(int[] nums, int k) {
          int ans = 0;
     Map<Integer, Integer> count = new HashMap<>();
@@ -59,7 +60,6 @@ class solution:
     }
 
     return ans;
-class Solution {
 
 ```
 
