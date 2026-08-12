@@ -1,3 +1,4 @@
+class Solution {
     public int maxSubarrayLength(int[] nums, int k) {
          int ans = 0;
     Map<Integer, Integer> count = new HashMap<>();
@@ -10,4 +11,3 @@
     }
 
     return ans;
-class Solution {
