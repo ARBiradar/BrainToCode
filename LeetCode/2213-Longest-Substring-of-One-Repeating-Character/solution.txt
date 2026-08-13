@@ -3,12 +3,12 @@
  *      char, so pushUp needs nothing external (no l/r/mid, no shared cs[]
  *      no stack frames, tighter loops.
  *   2. Self-contained merge: each node stores its own leftmost/rightmost
- *      entirely instead of walking log(n) nodes for nothing.
- *   4. Padding leaves (when n isn't a power of two) are treated as an
- *      explicit identity element via len == 0, so the merge logic stays
- *      branch-simple and correct without special-casing tree edges.
- */
-class Solution {
-
-    private int size;                  // next power of two >= n
  *   1. Iterative bottom-up build + iterative point update -> no recursion,
+ *
+ * The wins here are all constant-factor / engineering ones:
+ n).
+ * Same asymptotic complexity as a recursive segment tree: O((n + k) log 
+ *
+ * LeetCode 2213 - Longest Substring of One Repeating Character
+/**
+ *      entirely instead of walking log(n) nodes for nothing.
