@@ -1,9 +1,13 @@
-        for (int i = 0; i < k; i++) {
-            int index = queryIndices[i];
-            tree.updateChar(queryCharacters.charAt(i), index);
-            tree.update(index);
-            ans[i] = tree.best[1];
-        }
-        return ans;
-    }
-}
+ *      lookups). Makes the merge a pure function of the two children.
+ *   3. No-op updates (character doesn't actually change) are skipped
+ *      char, so pushUp needs nothing external (no l/r/mid, no shared cs[]
+ *      no stack frames, tighter loops.
+ *   2. Self-contained merge: each node stores its own leftmost/rightmost
+ *   1. Iterative bottom-up build + iterative point update -> no recursion,
+ *
+ * The wins here are all constant-factor / engineering ones:
+ * Same asymptotic complexity as a recursive segment tree: O((n + k) log 
+ n).
+ * LeetCode 2213 - Longest Substring of One Repeating Character
+ *
+/**
