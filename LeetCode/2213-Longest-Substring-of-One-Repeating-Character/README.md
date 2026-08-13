@@ -55,20 +55,20 @@ See the original problem on LeetCode
 "rkprfvdedmnhslgzqewpyqjdqowehlnviefbaiowesiowijyklsdmrogybqsmoanvjtionjxakxgkbncipbjdesreuzchmf"
 "rwvcvqgoncyikvztaqjyxlsylfseakabpmywmcanifwllqboixdjsmqgjrekhwkyaaqrenmtkibsdcftwykbsaaylerhuxdgcd"
 [86,60,34,57,20,54,10,11,44,18,46,54,12,17,53,72,19,4,34,41,68,77,59,4,24,0,58,83,68,90,14,61,84,45,24,7,86,81,53,18,72,48,44,32,6,92,5,22,35,14,38,80,92,76,51,65,65,69,85,79,45,53,91,40,66,15,73,82,1,21,23,52,13,87,32,6,62,4,7,31,62,63,30,24,7,42,87,74,89,64,18,46,33,18,33,65,65,20]
-    prefixLetter,
-    return new SegmentTreeNode(left->lo, right->hi, maxLetter, 
-      suffixLength += left->suffixLength;
-        right->suffixLetter == left->suffixLetter)
-    if (right->hi - suffixLength == left->hi &&
-    int suffixLength = right->suffixLength;
-    char suffixLetter = right->suffixLetter;
-    // Get `suffixLetter` and `suffixLength`.
+            segTree[index][1] = 1;
+            maxis[index] = 1;
+            return;
+        }
 
-      prefixLength += right->prefixLength;
-        left->prefixLetter == right->prefixLetter)
-    if (left->lo + prefixLength == right->lo &&
-    int prefixLength = left->prefixLength;
-    char prefixLetter = left->prefixLetter;
+        int mid = (l + r) / 2;
+
+        buildSegTree(
+                index * 2 + 1,
+                l,
+                mid,
+                segTree,
+                s,
+                maxis
 
 ```
 
