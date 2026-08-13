@@ -1,14 +1,14 @@
-    prefixLetter,
-    return new SegmentTreeNode(left->lo, right->hi, maxLetter, 
-      suffixLength += left->suffixLength;
-        right->suffixLetter == left->suffixLetter)
-    if (right->hi - suffixLength == left->hi &&
-    int suffixLength = right->suffixLength;
-    char suffixLetter = right->suffixLetter;
-    // Get `suffixLetter` and `suffixLength`.
+            segTree[index][1] = 1;
+            maxis[index] = 1;
+            return;
+        }
 
-      prefixLength += right->prefixLength;
-        left->prefixLetter == right->prefixLetter)
-    if (left->lo + prefixLength == right->lo &&
-    int prefixLength = left->prefixLength;
-    char prefixLetter = left->prefixLetter;
+        int mid = (l + r) / 2;
+
+        buildSegTree(
+                index * 2 + 1,
+                l,
+                mid,
+                segTree,
+                s,
+                maxis
