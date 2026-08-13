@@ -1,1 +1,9 @@
- 
+        for (int i = 0; i < k; i++) {
+            int index = queryIndices[i];
+            tree.updateChar(queryCharacters.charAt(i), index);
+            tree.update(index);
+            ans[i] = tree.best[1];
+        }
+        return ans;
+    }
+}
