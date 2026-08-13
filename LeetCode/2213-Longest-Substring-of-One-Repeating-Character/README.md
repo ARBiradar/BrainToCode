@@ -55,15 +55,19 @@ See the original problem on LeetCode
 "rkprfvdedmnhslgzqewpyqjdqowehlnviefbaiowesiowijyklsdmrogybqsmoanvjtionjxakxgkbncipbjdesreuzchmf"
 "rwvcvqgoncyikvztaqjyxlsylfseakabpmywmcanifwllqboixdjsmqgjrekhwkyaaqrenmtkibsdcftwykbsaaylerhuxdgcd"
 [86,60,34,57,20,54,10,11,44,18,46,54,12,17,53,72,19,4,34,41,68,77,59,4,24,0,58,83,68,90,14,61,84,45,24,7,86,81,53,18,72,48,44,32,6,92,5,22,35,14,38,80,92,76,51,65,65,69,85,79,45,53,91,40,66,15,73,82,1,21,23,52,13,87,32,6,62,4,7,31,62,63,30,24,7,42,87,74,89,64,18,46,33,18,33,65,65,20]
-        for (int i = 0; i < k; i++) {
-            int index = queryIndices[i];
-            tree.updateChar(queryCharacters.charAt(i), index);
-            tree.update(index);
-            ans[i] = tree.best[1];
-        }
-        return ans;
-    }
-}
+ *      lookups). Makes the merge a pure function of the two children.
+ *   3. No-op updates (character doesn't actually change) are skipped
+ *      char, so pushUp needs nothing external (no l/r/mid, no shared cs[]
+ *      no stack frames, tighter loops.
+ *   2. Self-contained merge: each node stores its own leftmost/rightmost
+ *   1. Iterative bottom-up build + iterative point update -> no recursion,
+ *
+ * The wins here are all constant-factor / engineering ones:
+ * Same asymptotic complexity as a recursive segment tree: O((n + k) log 
+ n).
+ * LeetCode 2213 - Longest Substring of One Repeating Character
+ *
+/**
 
 ```
 
