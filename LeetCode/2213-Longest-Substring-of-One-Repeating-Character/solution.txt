@@ -1,14 +1,14 @@
- *      lookups). Makes the merge a pure function of the two children.
- *   3. No-op updates (character doesn't actually change) are skipped
- *      char, so pushUp needs nothing external (no l/r/mid, no shared cs[]
- *      no stack frames, tighter loops.
- *   2. Self-contained merge: each node stores its own leftmost/rightmost
- *   1. Iterative bottom-up build + iterative point update -> no recursion,
- *
- * The wins here are all constant-factor / engineering ones:
- n).
- * Same asymptotic complexity as a recursive segment tree: O((n + k) log 
- *
- *      entirely instead of walking log(n) nodes for nothing.
- *   4. Padding leaves (when n isn't a power of two) are treated as an
- *      explicit identity element via len == 0, so the merge logic stays
+                cs[i] = c;
+                int node = size + i;
+                lc[node] = rc[node] = c;
+                for (node >>= 1; node >= 1; node >>= 1) {
+                    pushUp(node);
+                }
+            }
+            ans[q] = best[1];
+        }
+        return ans;
+    }
+
+    private void pushUp(int node) {
+        int l = node << 1, r = l | 1;
