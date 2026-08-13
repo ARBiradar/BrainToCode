@@ -1,14 +1,1 @@
-            segTree[index][1] = 1;
-            maxis[index] = 1;
-            return;
-        }
-
-        int mid = (l + r) / 2;
-
-        buildSegTree(
-                index * 2 + 1,
-                l,
-                mid,
-                segTree,
-                s,
-                maxis
+ 
