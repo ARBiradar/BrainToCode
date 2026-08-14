@@ -1,0 +1,13 @@
+                left++;
+            }
+                charFrequency[leftCharIndex]--;
+                int leftCharIndex = s.charAt(left) - 'a';
+            while (charFrequency[currentCharIndex] > 2) {
+            from left
+            // If any character appears more than 2 times, shrink window 
+          
+            charFrequency[currentCharIndex]++;
+            // Increment frequency of current character
+          
+            int currentCharIndex = s.charAt(right) - 'a';
+            // Get the index of current character (0-25 for a-z)
