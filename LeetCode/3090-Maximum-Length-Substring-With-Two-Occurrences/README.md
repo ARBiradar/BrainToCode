@@ -42,8 +42,9 @@ See the original problem on LeetCode
             times, shrink window from left
             while (charFrequency[currentCharIndex] > 2) {
                 int leftCharIndex = s.charAt(left) - 'a';
-                charFrequency[leftCharIndex]--;
-                left++;
+        {
+        for (int right = 0; right < s.length(); right++) 
+        int left = 0;
 
 ```
 
