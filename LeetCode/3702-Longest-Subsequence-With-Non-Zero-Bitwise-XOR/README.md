@@ -9,20 +9,19 @@ See the original problem on LeetCode
 ## 💻 Solution
 
 ```total_xor != 0
-                break;
-            }
-        }
-            if (num != 0) {
-                allZero = false;
-        for (int num : nums) {
-        boolean allZero = true;
-
 
         if (allZero) {
             return 0;
         }
 
         // Calculate XOR of all elements
+        int totalXor = 0;
+
+        for (int num : nums) {
+            totalXor ^= num;
+        }
+
+        // If total XOR is non-zero, entire array is the longest 
 
 ```
 
