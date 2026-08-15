@@ -1,0 +1,14 @@
+                break;
+            }
+        }
+            if (num != 0) {
+                allZero = false;
+        for (int num : nums) {
+        boolean allZero = true;
+
+        // Handle edge case where array contains only zeros
+
+        if (allZero) {
+            return 0;
+        }
+
