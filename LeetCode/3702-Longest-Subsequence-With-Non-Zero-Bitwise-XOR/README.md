@@ -9,10 +9,6 @@ See the original problem on LeetCode
 ## 💻 Solution
 
 ```total_xor != 0
-                break;
-            }
-        }
-                allZero = false;
 
         if (allZero) {
             return 0;
@@ -22,6 +18,10 @@ See the original problem on LeetCode
         int totalXor = 0;
 
         for (int num : nums) {
+            totalXor ^= num;
+        }
+
+        // If total XOR is non-zero, entire array is the longest 
 
 ```
 
