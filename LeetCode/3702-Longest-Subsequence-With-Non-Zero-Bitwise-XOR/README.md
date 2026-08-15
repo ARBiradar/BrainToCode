@@ -12,17 +12,16 @@ See the original problem on LeetCode
                 break;
             }
         }
-            if (num != 0) {
                 allZero = false;
-        for (int num : nums) {
-        boolean allZero = true;
-
 
         if (allZero) {
             return 0;
         }
 
         // Calculate XOR of all elements
+        int totalXor = 0;
+
+        for (int num : nums) {
 
 ```
 
