@@ -17,12 +17,12 @@ See the original problem on LeetCode
         for (int num : nums) {
         boolean allZero = true;
 
-        // Handle edge case where array contains only zeros
 
         if (allZero) {
             return 0;
         }
 
+        // Calculate XOR of all elements
 
 ```
 
