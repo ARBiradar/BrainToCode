@@ -9,9 +9,6 @@ See the original problem on LeetCode
 ## 💻 Solution
 
 ```total_xor != 0
-
-        if (allZero) {
-            return 0;
         }
 
         // Calculate XOR of all elements
@@ -22,6 +19,10 @@ See the original problem on LeetCode
         }
 
         // If total XOR is non-zero, entire array is the longest 
+        subsequence
+        if (totalXor != 0) {
+            return n;
+        }
 
 ```
 
