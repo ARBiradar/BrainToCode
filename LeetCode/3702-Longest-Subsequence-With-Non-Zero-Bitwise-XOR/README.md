@@ -9,20 +9,17 @@ See the original problem on LeetCode
 ## 💻 Solution
 
 ```total_xor != 0
-        }
-
-        // Calculate XOR of all elements
-        int totalXor = 0;
-
-        for (int num : nums) {
-            totalXor ^= num;
-        }
 
         // If total XOR is non-zero, entire array is the longest 
         subsequence
         if (totalXor != 0) {
             return n;
         }
+
+        // If total XOR is zero, remove one element
+        return n - 1;
+    }
+}
 
 ```
 
