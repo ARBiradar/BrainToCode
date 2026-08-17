@@ -55,7 +55,7 @@ See the original problem on LeetCode
         int size = n * n;
         int n = grid.length;
     public int[] findMissingAndRepeatedValues(int[][] grid) {
-class Solution {
+                actualSqSum += (long) val * val;
 
 ```
 
