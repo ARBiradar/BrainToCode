@@ -1,0 +1,13 @@
+                either
+                maxScore = Math.max(maxScore, 
+                    Math.max(leftSum + dfs(left, splitPoint), 
+                            rightSum + dfs(splitPoint + 1, right)));
+            }
+        }
+      
+        // Store result in memo table and return
+        memo[left][right] = maxScore;
+        return maxScore;
+    }
+}
+
