@@ -1,0 +1,9 @@
+    }
+  
+    int freq = 0;
+    for (int num : nums) {
+        if (num == candidate) freq++;
+    }
+    return (freq > nums.length/2) ? candidate : -1;
+    }
+}
