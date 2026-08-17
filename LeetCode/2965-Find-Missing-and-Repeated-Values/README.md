@@ -43,15 +43,19 @@ See the original problem on LeetCode
         return new int[]{dup, missing};
     }
 }
-            } else if (counts[i] == 0) {
-                missing = i;
-            }
-        }
-        
-        return new int[]{repeated, missing};
-    }
-}
+                actualSum += val;
+                int val = grid[i][j];
+            for (int j = 0; j < n; j++) {
+        for (int i = 0; i < n; i++) {
+        // Calculate actual sum and square sum
+        long actualSqSum = 0;
 
+        long actualSum = 0;
+
+        int size = n * n;
+        int n = grid.length;
+    public int[] findMissingAndRepeatedValues(int[][] grid) {
+class Solution {
 
 ```
 
