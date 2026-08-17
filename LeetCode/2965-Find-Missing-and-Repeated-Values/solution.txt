@@ -1,0 +1,9 @@
+            } else if (counts[i] == 0) {
+                missing = i;
+            }
+        }
+        
+        return new int[]{repeated, missing};
+    }
+}
+

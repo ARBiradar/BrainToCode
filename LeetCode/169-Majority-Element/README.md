@@ -46,6 +46,7 @@ See the original problem on LeetCode
     return (freq > nums.length/2) ? candidate : -1;
     }
 }
+        count += (num == candidate) ? 1 : -1;
 
 ```
 

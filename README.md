@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1929-concatenation-of-array](https://github.com/ARBiradar/BrainToCode/tree/master/1929-concatenation-of-array) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ARBiradar/BrainToCode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ARBiradar/BrainToCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+| [2965-find-missing-and-repeated-values](https://github.com/ARBiradar/BrainToCode/tree/master/2965-find-missing-and-repeated-values) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/ARBiradar/BrainToCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3731-find-missing-elements](https://github.com/ARBiradar/BrainToCode/tree/master/3731-find-missing-elements) |
 ## Hash Table
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/ARBiradar/BrainToCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0169-majority-element](https://github.com/ARBiradar/BrainToCode/tree/master/0169-majority-element) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ARBiradar/BrainToCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+| [2965-find-missing-and-repeated-values](https://github.com/ARBiradar/BrainToCode/tree/master/2965-find-missing-and-repeated-values) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/ARBiradar/BrainToCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3731-find-missing-elements](https://github.com/ARBiradar/BrainToCode/tree/master/3731-find-missing-elements) |
 ## String
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/ARBiradar/BrainToCode/tree/master/0066-plus-one) |
 | [1510-stone-game-iv](https://github.com/ARBiradar/BrainToCode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/ARBiradar/BrainToCode/tree/master/1563-stone-game-v) |
+| [2965-find-missing-and-repeated-values](https://github.com/ARBiradar/BrainToCode/tree/master/2965-find-missing-and-repeated-values) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/ARBiradar/BrainToCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/ARBiradar/BrainToCode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/ARBiradar/BrainToCode/tree/master/3348-smallest-divisible-digit-product-ii) |
@@ -175,4 +178,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ARBiradar/BrainToCode/tree/master/0169-majority-element) |
+## Matrix
+|  |
+| ------- |
+| [2965-find-missing-and-repeated-values](https://github.com/ARBiradar/BrainToCode/tree/master/2965-find-missing-and-repeated-values) |
 <!---LeetCode Topics End-->
