@@ -1,13 +1,13 @@
-                either
-                maxScore = Math.max(maxScore, 
-                    Math.max(leftSum + dfs(left, splitPoint), 
-                            rightSum + dfs(splitPoint + 1, right)));
-            }
-        }
-      
-        // Store result in memo table and return
-        memo[left][right] = maxScore;
-        return maxScore;
-    }
-}
-
+class Solution {
+    private int n;                    // Total number of stones
+    private int[] prefixSum;          // Prefix sum array for quick 
+    range sum calculation
+    private int[] stoneValues;        // Original stone values array
+    private Integer[][] memo;          // Memoization table for dynamic 
+    programming
+  
+    public int stoneGameV(int[] stoneValue) {
+        // Initialize variables
+        n = stoneValue.length;
+        prefixSum = new int[n + 1];
+        stoneValues = stoneValue;
