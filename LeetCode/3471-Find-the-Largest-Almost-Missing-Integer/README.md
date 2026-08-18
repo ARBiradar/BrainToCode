@@ -45,10 +45,13 @@ See the original problem on LeetCode
     int[] count = new int[MAX + 1];
     for (final int num : nums)
       ++count[num];
-    return count;
-  }
-}
     orElse(-1);
+  }
+  private int maxUnique(int[] nums, int[] count) {
+    return Arrays.stream(nums).filter(num -> count[num] == 1).max().
+  returns -1.
+  // Returns the maximum unique integer in nums if any. Otherwise, 
+
   }
 
 ```
