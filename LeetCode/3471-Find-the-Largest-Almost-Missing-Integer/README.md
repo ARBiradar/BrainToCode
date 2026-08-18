@@ -48,6 +48,8 @@ See the original problem on LeetCode
     return count;
   }
 }
+    orElse(-1);
+  }
 
 ```
 
