@@ -1,0 +1,9 @@
+
+  private int[] getCount(int[] nums) {
+    final int MAX = 50;
+    int[] count = new int[MAX + 1];
+    for (final int num : nums)
+      ++count[num];
+    return count;
+  }
+}
