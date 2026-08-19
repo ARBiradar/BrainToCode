@@ -1,0 +1,13 @@
+                    // Mark these seats as occupied to avoid double 
+                    counting
+                    reservedSeatsBitmask |= groupMask;
+                    totalFamilies++;
+                }
+            }
+        }
+      
+        return totalFamilies;
+    }
+}
+
+                if ((reservedSeatsBitmask & groupMask) == 0) {
