@@ -10,3 +10,4 @@
     }
 }
 
+                if ((reservedSeatsBitmask & groupMask) == 0) {
