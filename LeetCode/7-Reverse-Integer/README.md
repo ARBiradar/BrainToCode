@@ -101,11 +101,15 @@ See the original problem on LeetCode
 45  
 46    }
 47}
+        }
+            x /= 10;
+            reversed = reversed * 10 + (x % 10);
+        while (x != 0) {
 
-        return (int) reversed;
-  
-    }
-}
+        long reversed = 0;
+
+        */
+        return revDigit;
 
 ```
 
