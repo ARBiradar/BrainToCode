@@ -76,6 +76,7 @@ See the original problem on LeetCode
             if (revDigit < Integer.MIN_VALUE / 10 || 
                 (revDigit == Integer.MIN_VALUE / 10 && digit < -8)) {
                 return 0;
+            }
 
 ```
 
