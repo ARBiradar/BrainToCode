@@ -177,16 +177,16 @@ See the original problem on LeetCode
 83        
 84        
 85
-            checkSum += nums[i];
-        }
-        return sum-checkSum;
 
+    
+        
+        
+    
+    */
+        } else i++;
+        }
+        return nums.length;
     }
-}
-        for(int i = 0; i< n; i++){
-        int checkSum = 0;
-        int sum = n * (n+1)/2;
-    int n = nums.length;
 
 ```
 
