@@ -19,12 +19,7 @@ See the original problem on LeetCode
 4        return math.pow(x,n);
 5    }
 6}
-
-    public double myPow(double x, int n) {
-        return Math.pow(x,n);
-    }
-class Solution {
-}
+c
 
 ```
 
