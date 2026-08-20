@@ -177,16 +177,16 @@ See the original problem on LeetCode
 83        
 84        
 85
-    int n = nums.length;
-        int sum = n * (n+1)/2;
-class Solution {
- public int missingNumber(int[] nums) {
-        arr[j] = temp;
-    }*/
-        arr[i] = arr[j];
-        int temp = arr[i];
-    public static void swap(int[] arr, int i, int j){
+
     }
+}
+    /*
+    public void swap(int[] arr, int first, int second){
+        int temp = arr[first];
+        arr[first] = arr[second];
+        arr[second] = temp;
+    }
+        return sum-checkSum;
 
 ```
 
