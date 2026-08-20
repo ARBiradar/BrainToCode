@@ -84,7 +84,7 @@ See the original problem on LeetCode
         return false;
         }
             return true;
-        {
+    }
 
 ```
 
