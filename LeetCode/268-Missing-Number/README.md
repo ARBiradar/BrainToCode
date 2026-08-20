@@ -177,16 +177,17 @@ See the original problem on LeetCode
 83        
 84        
 85
-
-    }
-}
-    /*
-    public void swap(int[] arr, int first, int second){
-        int temp = arr[first];
-        arr[first] = arr[second];
-        arr[second] = temp;
-    }
+        }
+            checkSum += nums[i];
+        for(int i = 0; i< n; i++){
+        int checkSum = 0;
+        int sum = n * (n+1)/2;
+    int n = nums.length;
+ public int missingNumber(int[] nums) {
+class Solution {
         return sum-checkSum;
+
+    }*/
 
 ```
 
