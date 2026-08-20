@@ -49,6 +49,7 @@ See the original problem on LeetCode
     }
 }
 
+                if ((reservedSeatsBitmask & groupMask) == 0) {
 
 ```
 
