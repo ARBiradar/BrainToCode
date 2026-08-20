@@ -101,15 +101,16 @@ See the original problem on LeetCode
 45  
 46    }
 47}
+    public int reverse(int x) {
+        /*
+        int revDigit = 0;
+        int temp = x;
+        if(x < 0)
+        {
+            x *= -1; 
         }
-            x /= 10;
-            reversed = reversed * 10 + (x % 10);
-        while (x != 0) {
-
-        long reversed = 0;
-
-        */
-        return revDigit;
+        while(x != 0)
+        {
 
 ```
 
