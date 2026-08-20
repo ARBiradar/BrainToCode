@@ -1,0 +1,13 @@
+            return false;
+        }
+        String str = ""+x;
+
+
+        String reversedStr = new StringBuilder(str).reverse().toString();
+        if(str.equals(reversedStr))
+        {
+            return true;
+        }
+    }
+        return false;
+}
