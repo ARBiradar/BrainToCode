@@ -177,15 +177,15 @@ See the original problem on LeetCode
 83        
 84        
 85
-
-    
-        
-        
-    
-    */
-        } else i++;
-        }
-        return nums.length;
+    int n = nums.length;
+        int sum = n * (n+1)/2;
+class Solution {
+ public int missingNumber(int[] nums) {
+        arr[j] = temp;
+    }*/
+        arr[i] = arr[j];
+        int temp = arr[i];
+    public static void swap(int[] arr, int i, int j){
     }
 
 ```
