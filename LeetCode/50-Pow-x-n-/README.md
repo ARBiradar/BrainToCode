@@ -19,7 +19,7 @@ See the original problem on LeetCode
 4        return math.pow(x,n);
 5    }
 6}
-c
+
 
 ```
 
