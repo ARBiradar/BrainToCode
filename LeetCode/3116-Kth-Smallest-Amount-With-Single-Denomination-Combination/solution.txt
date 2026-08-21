@@ -1,0 +1,17 @@
+
+  }
+    return l;
+
+    }
+        l = m + 1;
+      else
+        r = m;
+      if (numDenominationsNoGreaterThan(sizeToLcms, m) >= k)
+      final long m = (l + r) / 2;
+    while (l < r) {
+
+    long r = (long) k * Arrays.stream(coins).min().getAsInt();
+    long l = 0;
+    List<Long>[] sizeToLcms = getSizeToLcms(coins);
+  public long findKthSmallest(int[] coins, int k) {
+class Solution {
