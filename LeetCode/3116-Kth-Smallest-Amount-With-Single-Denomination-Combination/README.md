@@ -25,23 +25,24 @@ See the original problem on LeetCode
                 tot += m // lcm(*c) * pow(-1, x + 1)
         return tot >= k
     return bisect_left(range(k * a[0] + 1), true, lo=1, key=check)
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                newCoins.add(x);
+            }
+        }
+        coins = newCoins
+            .stream()
+            .mapToInt(i -> i)
+            .toArray();
 
-  }
-    return l;
-
-    }
-        l = m + 1;
-      else
-        r = m;
-      if (numDenominationsNoGreaterThan(sizeToLcms, m) >= k)
-      final long m = (l + r) / 2;
-    while (l < r) {
-
-    long r = (long) k * Arrays.stream(coins).min().getAsInt();
-    long l = 0;
-    List<Long>[] sizeToLcms = getSizeToLcms(coins);
-  public long findKthSmallest(int[] coins, int k) {
-class Solution {
+        int n = coins.length;
+        int m = 1 << n;
+        int[] bitCount = new int[m];
+        long[] lcm = new long[m];
+        long l = k;
 
 ```
 
