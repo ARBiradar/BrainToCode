@@ -1,0 +1,18 @@
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                newCoins.add(x);
+            }
+        }
+        coins = newCoins
+            .stream()
+            .mapToInt(i -> i)
+            .toArray();
+
+        int n = coins.length;
+        int m = 1 << n;
+        int[] bitCount = new int[m];
+        long[] lcm = new long[m];
+        long l = k;
