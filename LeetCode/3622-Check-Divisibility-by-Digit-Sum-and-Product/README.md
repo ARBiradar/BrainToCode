@@ -59,12 +59,6 @@ See the original problem on LeetCode
 24    }
 25}
 26
-        int number = n;        // Copy of n for digit 
-        extraction
-      
-        // Extract each digit and calculate sum and product
-        while (number != 0) {
-            int currentDigit = number % 10;  // Get the last 
             digit
             number /= 10;                     // Remove the 
             last digit
@@ -77,6 +71,11 @@ See the original problem on LeetCode
       
         // Check if n is divisible by (digitSum + 
         digitProduct)
+        return n % (digitSum + digitProduct) == 0;
+    }
+}
+
+            int currentDigit = number % 10;  // Get the last 
 
 ```
 
