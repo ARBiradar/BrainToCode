@@ -59,10 +59,6 @@ See the original problem on LeetCode
 24    }
 25}
 26
-    
-    public boolean checkDivisibility(int n) {
-        int digitSum = 0;      // Sum of all digits
-        int digitProduct = 1;  // Product of all digits
         int number = n;        // Copy of n for digit 
         extraction
       
@@ -77,6 +73,10 @@ See the original problem on LeetCode
             sum
             digitProduct *= currentDigit;    // Multiply 
             digit to product
+        }
+      
+        // Check if n is divisible by (digitSum + 
+        digitProduct)
 
 ```
 
