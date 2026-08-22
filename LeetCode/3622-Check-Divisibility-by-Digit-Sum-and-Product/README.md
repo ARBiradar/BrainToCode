@@ -59,7 +59,6 @@ See the original problem on LeetCode
 24    }
 25}
 26
-class Solution {
     
     public boolean checkDivisibility(int n) {
         int digitSum = 0;      // Sum of all digits
@@ -77,6 +76,7 @@ class Solution {
             digitSum += currentDigit;        // Add digit to 
             sum
             digitProduct *= currentDigit;    // Multiply 
+            digit to product
 
 ```
 
