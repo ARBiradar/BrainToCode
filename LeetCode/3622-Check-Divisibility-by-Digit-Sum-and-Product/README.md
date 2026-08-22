@@ -59,23 +59,24 @@ See the original problem on LeetCode
 24    }
 25}
 26
-        while (number != 0) {
-            int currentDigit = number % 10;  // Get the last digit
-            number /= 10;                     // Remove the last digit
-          
+class Solution {
+    
+    public boolean checkDivisibility(int n) {
+        int digitSum = 0;      // Sum of all digits
+        int digitProduct = 1;  // Product of all digits
+        int number = n;        // Copy of n for digit 
+        extraction
       
         // Extract each digit and calculate sum and product
-        int digitProduct = 1;  // Product of all digits
-        int number = n;        // Copy of n for digit extraction
-        int digitSum = 0;      // Sum of all digits
-    public boolean checkDivisibility(int n) {
-     */
-     * @return true if n is divisible by (sum of digits + product of digits), false otherwise
-     * @param n the number to check
-     * Checks if a number is divisible by the sum of (digit sum + digit product)
-    /**
-class Solution {
-
+        while (number != 0) {
+            int currentDigit = number % 10;  // Get the last 
+            digit
+            number /= 10;                     // Remove the 
+            last digit
+          
+            digitSum += currentDigit;        // Add digit to 
+            sum
+            digitProduct *= currentDigit;    // Multiply 
 
 ```
 
