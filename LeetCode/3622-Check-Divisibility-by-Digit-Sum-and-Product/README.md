@@ -63,14 +63,18 @@ See the original problem on LeetCode
             int currentDigit = number % 10;  // Get the last digit
             number /= 10;                     // Remove the last digit
           
-            digitSum += currentDigit;        // Add digit to sum
-            digitProduct *= currentDigit;    // Multiply digit to product
-        }
       
-        // Check if n is divisible by (digitSum + digitProduct)
-        return n % (digitSum + digitProduct) == 0;
-    }
-}
+        // Extract each digit and calculate sum and product
+        int digitProduct = 1;  // Product of all digits
+        int number = n;        // Copy of n for digit extraction
+        int digitSum = 0;      // Sum of all digits
+    public boolean checkDivisibility(int n) {
+     */
+     * @return true if n is divisible by (sum of digits + product of digits), false otherwise
+     * @param n the number to check
+     * Checks if a number is divisible by the sum of (digit sum + digit product)
+    /**
+class Solution {
 
 
 ```
