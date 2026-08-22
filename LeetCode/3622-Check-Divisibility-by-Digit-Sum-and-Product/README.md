@@ -2,30 +2,26 @@
 
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-blue) ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-orange) ![Language](https://img.shields.io/badge/Language-1
 2class Solution {
-3    /**
-4     * Checks if a number is divisible by the sum of (digit sum + digit product)
-5     * @param n the number to check
-6     * @return true if n is divisible by (sum of digits + product of digits), false otherwise
-7     */
-8    public boolean checkDivisibility(int n) {
-9        int digitSum = 0;      // Sum of all digits
-10        int digitProduct = 1;  // Product of all digits
-11        int number = n;        // Copy of n for digit extraction
-12      
-13        // Extract each digit and calculate sum and product
-14        while (number != 0) {
-15            int currentDigit = number % 10;  // Get the last digit
-16            number /= 10;                     // Remove the last digit
-17          
-18            digitSum += currentDigit;        // Add digit to sum
-19            digitProduct *= currentDigit;    // Multiply digit to product
-20        }
-21      
-22        // Check if n is divisible by (digitSum + digitProduct)
-23        return n % (digitSum + digitProduct) == 0;
-24    }
-25}
-26-green)
+3    
+4    public boolean checkDivisibility(int n) {
+5        int digitSum = 0;     
+6        int digitProduct = 1;  
+7        int number = n;        
+8      
+9      
+10        while (number != 0) {
+11            int currentDigit = number % 10;  
+12            number /= 10;                     
+13          
+14            digitSum += currentDigit;        
+15            digitProduct *= currentDigit;     
+16        }
+17      
+18       
+19        return n % (digitSum + digitProduct) == 0;
+20    }
+21}
+22-green)
 
 ## 🧩 Problem Summary
 
@@ -35,47 +31,43 @@ See the original problem on LeetCode
 
 ```1
 2class solution {
-3    /**
-4     * checks if a number is divisible by the sum of (digit sum + digit product)
-5     * @param n the number to check
-6     * @return true if n is divisible by (sum of digits + product of digits), false otherwise
-7     */
-8    public boolean checkdivisibility(int n) {
-9        int digitsum = 0;      // sum of all digits
-10        int digitproduct = 1;  // product of all digits
-11        int number = n;        // copy of n for digit extraction
-12      
-13        // extract each digit and calculate sum and product
-14        while (number != 0) {
-15            int currentdigit = number % 10;  // get the last digit
-16            number /= 10;                     // remove the last digit
-17          
-18            digitsum += currentdigit;        // add digit to sum
-19            digitproduct *= currentdigit;    // multiply digit to product
-20        }
-21      
-22        // check if n is divisible by (digitsum + digitproduct)
-23        return n % (digitsum + digitproduct) == 0;
-24    }
-25}
-26
-            digit
-            number /= 10;                     // Remove the 
-            last digit
+3    
+4    public boolean checkdivisibility(int n) {
+5        int digitsum = 0;     
+6        int digitproduct = 1;  
+7        int number = n;        
+8      
+9      
+10        while (number != 0) {
+11            int currentdigit = number % 10;  
+12            number /= 10;                     
+13          
+14            digitsum += currentdigit;        
+15            digitproduct *= currentdigit;     
+16        }
+17      
+18       
+19        return n % (digitsum + digitproduct) == 0;
+20    }
+21}
+22
+        while (number != 0) {
+            int currentDigit = number % 10;  
+            number /= 10;                     
           
-            digitSum += currentDigit;        // Add digit to 
-            sum
-            digitProduct *= currentDigit;    // Multiply 
-            digit to product
+            digitSum += currentDigit;        
+            digitProduct *= currentDigit;     
         }
       
-        // Check if n is divisible by (digitSum + 
-        digitProduct)
-        return n % (digitSum + digitProduct) == 0;
-    }
-}
+        int number = n;        
+      
+      
+        int digitProduct = 1;  
+    public boolean checkDivisibility(int n) {
+        int digitSum = 0;     
+class Solution {
+    
 
-            int currentDigit = number % 10;  // Get the last 
 
 ```
 
@@ -83,30 +75,26 @@ See the original problem on LeetCode
 
 `LeetCode` `Coding` `1
 2class Solution {
-3    /**
-4     * Checks if a number is divisible by the sum of (digit sum + digit product)
-5     * @param n the number to check
-6     * @return true if n is divisible by (sum of digits + product of digits), false otherwise
-7     */
-8    public boolean checkDivisibility(int n) {
-9        int digitSum = 0;      // Sum of all digits
-10        int digitProduct = 1;  // Product of all digits
-11        int number = n;        // Copy of n for digit extraction
-12      
-13        // Extract each digit and calculate sum and product
-14        while (number != 0) {
-15            int currentDigit = number % 10;  // Get the last digit
-16            number /= 10;                     // Remove the last digit
-17          
-18            digitSum += currentDigit;        // Add digit to sum
-19            digitProduct *= currentDigit;    // Multiply digit to product
-20        }
-21      
-22        // Check if n is divisible by (digitSum + digitProduct)
-23        return n % (digitSum + digitProduct) == 0;
-24    }
-25}
-26`
+3    
+4    public boolean checkDivisibility(int n) {
+5        int digitSum = 0;     
+6        int digitProduct = 1;  
+7        int number = n;        
+8      
+9      
+10        while (number != 0) {
+11            int currentDigit = number % 10;  
+12            number /= 10;                     
+13          
+14            digitSum += currentDigit;        
+15            digitProduct *= currentDigit;     
+16        }
+17      
+18       
+19        return n % (digitSum + digitProduct) == 0;
+20    }
+21}
+22`
 
 ## 📅 Solved On
 
