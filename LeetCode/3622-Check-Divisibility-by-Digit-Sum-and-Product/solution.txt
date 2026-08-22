@@ -11,3 +11,5 @@
     }
 }
 
+      
+        // Extract each digit and calculate sum and product
