@@ -1,18 +1,17 @@
-        int number = n;        // Copy of n for digit 
-        extraction
-      
-        // Extract each digit and calculate sum and product
         while (number != 0) {
-            int currentDigit = number % 10;  // Get the last 
-            digit
-            number /= 10;                     // Remove the 
-            last digit
+            int currentDigit = number % 10;  
+            number /= 10;                     
           
-            digitSum += currentDigit;        // Add digit to 
-            sum
-            digitProduct *= currentDigit;    // Multiply 
-            digit to product
+            digitSum += currentDigit;        
+            digitProduct *= currentDigit;     
         }
       
-        // Check if n is divisible by (digitSum + 
-        digitProduct)
+        int number = n;        
+      
+      
+        int digitProduct = 1;  
+    public boolean checkDivisibility(int n) {
+        int digitSum = 0;     
+class Solution {
+    
+

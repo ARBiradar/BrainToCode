@@ -1,0 +1,10 @@
+            }
+        }
+      
+        // Alice wins if:
+        // 1. Total question marks is odd (Alice gets the last move)
+        // 2. The difference in sums cannot be balanced by the question marks
+        //    (Bob needs exactly 9 * (rightQuestionMarks - leftQuestionMarks) / 2 
+        //     to balance the sums when question marks are evenly distributed)
+        int totalQuestionMarks = leftQuestionMarks + rightQuestionMarks;
+        int sumDifference = leftSum - rightSum;
