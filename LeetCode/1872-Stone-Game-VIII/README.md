@@ -129,17 +129,16 @@ See the original problem on LeetCode
 59    }
 60}
 61
+            // Score gained is prefixSum[currentIndex] minus opponent's optimal score
+            int takeCurrent = prefixSum[currentIndex] - dfs(currentIndex + 1);
+          
+            // Store the maximum of both choices
+            memo[currentIndex] = Math.max(skipCurrent, takeCurrent);
+        }
       
-        // Check if we've already computed this state
-        if (memo[currentIndex] == null) {
-            // The current player has two choices:
-            // 1. Skip this position and let the game continue from the next index
-            // 2. Take all stones from 0 to currentIndex and give turn to opponent
-          
-            // Choice 1: Skip current position
-            int skipCurrent = dfs(currentIndex + 1);
-          
-            // Choice 2: Take stones up to current index
+        return memo[currentIndex];
+    }
+}
 
 ```
 
