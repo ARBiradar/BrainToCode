@@ -1,0 +1,11 @@
+      
+        // Check if we've already computed this state
+        if (memo[currentIndex] == null) {
+            // The current player has two choices:
+            // 1. Skip this position and let the game continue from the next index
+            // 2. Take all stones from 0 to currentIndex and give turn to opponent
+          
+            // Choice 1: Skip current position
+            int skipCurrent = dfs(currentIndex + 1);
+          
+            // Choice 2: Take stones up to current index
