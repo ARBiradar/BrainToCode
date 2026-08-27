@@ -1,0 +1,9 @@
+                    result = currentSubstring;
+                }
+            }
+        }
+      
+        return result;
+    }
+}
+
