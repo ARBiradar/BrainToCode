@@ -1,0 +1,10 @@
+                }
+            }
+        }
+      
+        // Cache the result before returning
+                    isMatch = matchHelper(textIndex + 1, patternIndex + 1);
+                    // Characters match, move both pointers forward
+                if (textChar == patternChar || patternChar == '.') {
+              
+                char patternChar = pattern.charAt(patternIndex);
