@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1872-stone-game-viii](https://github.com/ARBiradar/BrainToCode/tree/master/1872-stone-game-viii) |
 | [1929-concatenation-of-array](https://github.com/ARBiradar/BrainToCode/tree/master/1929-concatenation-of-array) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ARBiradar/BrainToCode/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/ARBiradar/BrainToCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/ARBiradar/BrainToCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2965-find-missing-and-repeated-values](https://github.com/ARBiradar/BrainToCode/tree/master/2965-find-missing-and-repeated-values) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/ARBiradar/BrainToCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/ARBiradar/BrainToCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/ARBiradar/BrainToCode/tree/master/0169-majority-element) |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/ARBiradar/BrainToCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/ARBiradar/BrainToCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3731-find-missing-elements](https://github.com/ARBiradar/BrainToCode/tree/master/3731-find-missing-elements) |
 ## Backtracking
@@ -212,4 +214,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1386-cinema-seat-allocation](https://github.com/ARBiradar/BrainToCode/tree/master/1386-cinema-seat-allocation) |
+## Union-Find
+|  |
+| ------- |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/ARBiradar/BrainToCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 <!---LeetCode Topics End-->
