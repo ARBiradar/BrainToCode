@@ -1,0 +1,10 @@
+            }
+          
+            // Move to the next group
+            i = groupEnd;
+        }
+      
+        return result;
+    }
+}
+
