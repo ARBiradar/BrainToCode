@@ -13,15 +13,7 @@ See the original problem on LeetCode
 ```[---> l   r <------]
 [l <---------------]
 [---------------> r]
-        for (int i = 0; i < arrayLength; i++) {
-      
-      
-        int arrayLength = nums.length;
-        int maxIndex = 0;
-        int minIndex = 0;
-       
-    public int minimumDeletions(int[] nums) {
-class Solution {
+c
 
 ```
 
