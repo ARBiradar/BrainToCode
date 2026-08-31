@@ -1,0 +1,10 @@
+      
+        // If less than 2 critical points were found, return [-1, -1]
+        if (firstCriticalIndex == lastCriticalIndex) {
+            return new int[] {-1, -1};
+        }
+      
+        return result;
+    }
+}
+
