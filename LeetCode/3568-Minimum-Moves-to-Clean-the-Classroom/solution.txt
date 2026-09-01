@@ -1,0 +1,13 @@
+                            nextMask});
+                        }
+                    }
+                }
+            }
+            steps++;
+        }
+      
+        // No solution found
+        return -1;
+    }
+}
+
