@@ -211,20 +211,21 @@ See the original problem on LeetCode
 100    }
 101}
 102
-                            nextCol, 
-                            nextEnergy, 
-                            nextMask});
-                        }
-                    }
+                        // Calculate next energy (recharge at 'R', 
+                        classroom[nextRow].charAt(nextCol) != 'X') 
+                        {
+                      
+                    if (nextRow >= 0 && nextRow < rows && 
+                        nextCol >= 0 && nextCol < cols && 
+                    // Check if next position is valid and not a 
+                    wall
+                    int nextCol = currentCol + directions[k + 1];
+                  
+                    int nextRow = currentRow + directions[k];
+                // Try all 4 directions
+                for (int k = 0; k < 4; k++) {
                 }
-            }
-            steps++;
-        }
-      
-        // No solution found
-        return -1;
-    }
-}
+              
 
 ```
 
