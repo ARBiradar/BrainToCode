@@ -1,6 +1,5 @@
-                            nextCol, 
-                            nextEnergy, 
-                            nextMask});
+                            queue.add(new int[] {nextRow, nextCol, 
+                            nextEnergy, nextMask});
                         }
                     }
                 }
@@ -8,7 +7,9 @@
             steps++;
         }
       
-        // No solution found
-        return -1;
-    }
-}
+                        if (!visited[nextRow][nextCol][nextEnergy]
+                        [nextMask]) {
+                            visited[nextRow][nextCol][nextEnergy]
+                            [nextMask] = true;
+                        // Add to queue if this state hasn't been 
+                        visited
