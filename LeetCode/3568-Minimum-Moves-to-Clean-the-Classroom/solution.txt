@@ -1,15 +1,14 @@
-                        // Calculate next energy (recharge at 'R', 
-                        classroom[nextRow].charAt(nextCol) != 'X') 
-                        {
-                      
-                    if (nextRow >= 0 && nextRow < rows && 
-                        nextCol >= 0 && nextCol < cols && 
-                    // Check if next position is valid and not a 
-                    wall
-                    int nextCol = currentCol + directions[k + 1];
-                  
-                    int nextRow = currentRow + directions[k];
-                // Try all 4 directions
-                for (int k = 0; k < 4; k++) {
-                }
-              
+        // Store the index of each light in the grid
+        int[][] lightIndex = new int[rows][cols];
+        int startRow = 0, startCol = 0;
+        int lightCount = 0;
+      
+        // Find start position and assign indices to lights
+        for (int i = 0; i < rows; i++) {
+            String row = classroom[i];
+            for (int j = 0; j < cols; j++) {
+class Solution {
+    public int minMoves(String[] classroom, int energy) {
+        int rows = classroom.length;
+        int cols = classroom[0].length();
+      
