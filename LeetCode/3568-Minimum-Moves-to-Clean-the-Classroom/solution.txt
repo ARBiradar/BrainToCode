@@ -1,3 +1,5 @@
+                            nextCol, 
+                            nextEnergy, 
                             nextMask});
                         }
                     }
@@ -10,4 +12,3 @@
         return -1;
     }
 }
-
