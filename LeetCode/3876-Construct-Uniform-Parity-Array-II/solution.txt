@@ -8,3 +8,4 @@
         return true;
     }
 }
+                mn = Math.min(mn, x);
