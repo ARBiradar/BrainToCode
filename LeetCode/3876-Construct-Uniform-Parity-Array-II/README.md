@@ -31,6 +31,7 @@ See the original problem on LeetCode
         return true;
     }
 }
+                mn = Math.min(mn, x);
 
 ```
 
