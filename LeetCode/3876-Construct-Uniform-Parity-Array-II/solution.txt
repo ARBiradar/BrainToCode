@@ -1,0 +1,10 @@
+            }
+        }
+        for (int x : nums1) {
+            if (x % 2 == 0 && mn != inf && x < mn) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
