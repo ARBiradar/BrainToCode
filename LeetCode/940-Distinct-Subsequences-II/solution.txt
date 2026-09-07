@@ -1,0 +1,14 @@
+class Solution {
+    // Modulo value for preventing integer overflow
+    private static final int MOD = (int) 1e9 + 7;
+
+    /**
+     * Counts the number of distinct non-empty subsequences in string s.
+     * Uses dynamic programming where dp[i] represents the count of 
+     distinct
+     * subsequences ending with character ('a' + i).
+     * 
+     * @param s the input string
+     * @return the number of distinct subsequences modulo 10^9 + 7
+     */
+    public int distinctSubseqII(String s) {
