@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/ARBiradar/BrainToCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/ARBiradar/BrainToCode/tree/master/0022-generate-parentheses) |
 | [0115-distinct-subsequences](https://github.com/ARBiradar/BrainToCode/tree/master/0115-distinct-subsequences) |
+| [0940-distinct-subsequences-ii](https://github.com/ARBiradar/BrainToCode/tree/master/0940-distinct-subsequences-ii) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ARBiradar/BrainToCode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/ARBiradar/BrainToCode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/ARBiradar/BrainToCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/ARBiradar/BrainToCode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ARBiradar/BrainToCode/tree/master/0042-trapping-rain-water) |
 | [0115-distinct-subsequences](https://github.com/ARBiradar/BrainToCode/tree/master/0115-distinct-subsequences) |
+| [0940-distinct-subsequences-ii](https://github.com/ARBiradar/BrainToCode/tree/master/0940-distinct-subsequences-ii) |
 | [1510-stone-game-iv](https://github.com/ARBiradar/BrainToCode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/ARBiradar/BrainToCode/tree/master/1563-stone-game-v) |
 | [1872-stone-game-viii](https://github.com/ARBiradar/BrainToCode/tree/master/1872-stone-game-viii) |
