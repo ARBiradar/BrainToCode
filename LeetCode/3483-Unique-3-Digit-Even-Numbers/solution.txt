@@ -1,0 +1,14 @@
+                if (onesIndex == tensIndex) {
+                    continue;
+                }
+              
+                // Iterate through all possible positions for the 
+                hundreds digit
+                for (int hundredsIndex = 0; hundredsIndex < 
+                arrayLength; ++hundredsIndex) {
+                    // Skip if:
+                // Skip if using the same index as the ones digit
+          
+            // Iterate through all possible positions for the tens digit
+            for (int tensIndex = 0; tensIndex < arrayLength; 
+            ++tensIndex) {
