@@ -1,0 +1,13 @@
+        int subtreeNodeCount = leftSubtree[1] + rightSubtree[1] + 1;
+      
+        // Check if average of subtree equals current node's value
+        // Using integer division as per problem requirements
+        if (subtreeSum / subtreeNodeCount == root.val) {
+            nodeCount++;
+        }
+      
+        // Return sum and count for parent node's calculation
+        return new int[]{subtreeSum, subtreeNodeCount};
+    }
+}
+
