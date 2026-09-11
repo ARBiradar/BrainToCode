@@ -1,14 +1,14 @@
-                if (onesIndex == tensIndex) {
-                    continue;
-                }
-              
-                // Iterate through all possible positions for the 
-                hundreds digit
-                for (int hundredsIndex = 0; hundredsIndex < 
-                arrayLength; ++hundredsIndex) {
-                    // Skip if:
-                // Skip if using the same index as the ones digit
           
-            // Iterate through all possible positions for the tens digit
-            for (int tensIndex = 0; tensIndex < arrayLength; 
-            ++tensIndex) {
+            }
+                continue;
+            if (digits[onesIndex] % 2 == 1) {
+        (must be even)
+        for (int onesIndex = 0; onesIndex < arrayLength; ++onesIndex) {
+            // Skip if the digit at this position is odd
+        // Iterate through all possible positions for the ones digit 
+    public int totalNumbers(int[] digits) {
+        // Use a HashSet to store unique 3-digit numbers
+        Set<Integer> uniqueNumbers = new HashSet<>();
+        int arrayLength = digits.length;
+      
+class Solution {
