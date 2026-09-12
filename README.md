@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2965-find-missing-and-repeated-values](https://github.com/ARBiradar/BrainToCode/tree/master/2965-find-missing-and-repeated-values) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/ARBiradar/BrainToCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/ARBiradar/BrainToCode/tree/master/3069-distribute-elements-into-two-arrays-i) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/ARBiradar/BrainToCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/ARBiradar/BrainToCode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/ARBiradar/BrainToCode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/ARBiradar/BrainToCode/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ARBiradar/BrainToCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/ARBiradar/BrainToCode/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ARBiradar/BrainToCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/ARBiradar/BrainToCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1510-stone-game-iv](https://github.com/ARBiradar/BrainToCode/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/ARBiradar/BrainToCode/tree/master/1563-stone-game-v) |
 | [1872-stone-game-viii](https://github.com/ARBiradar/BrainToCode/tree/master/1872-stone-game-viii) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/ARBiradar/BrainToCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -157,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ARBiradar/BrainToCode/tree/master/0169-majority-element) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/ARBiradar/BrainToCode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/ARBiradar/BrainToCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/ARBiradar/BrainToCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3731-find-missing-elements](https://github.com/ARBiradar/BrainToCode/tree/master/3731-find-missing-elements) |
 ## Backtracking
 |  |
