@@ -1,0 +1,14 @@
+    return dp(indexedIntervals, memo, 0, 4).selected.stream().mapToInt
+    (Integer::intValue).toArray();
+  }
+      indexedIntervals.add(new Interval(interval.get(0), interval.get
+      (1), interval.get(2), i));
+    }
+    indexedIntervals.sort(Comparator.comparingInt(Interval::left));
+    T[][] memo = new T[indexedIntervals.size()][5];
+    for (int i = 0; i < intervals.size(); ++i) {
+      List<Integer> interval = intervals.get(i);
+    // Convert input to Interval objects
+    List<Interval> indexedIntervals = new ArrayList<>();
+class Solution {
+  public int[] maximumWeight(List<List<Integer>> intervals) {
